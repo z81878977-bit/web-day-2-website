@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concert Event Card</title>
+    <style>
+      body {
+        background: linear-gradient(135deg, #111827, #1f1147);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      .event-card {
+        background-color: #111827;
+        border: 2px solid #ec4899;
+        border-radius: 20px;
+        width: 380px;
+        padding: 30px;
+        box-shadow: 0 0 30px rgba(236, 72, 153, 0.2);
+        position: relative;
+      }
+
+      .badge {
+        display: inline-block;
+        background-color: #22c55e;
+        color: #ffffff;
+        font-size: 0.75rem;
+        font-weight: bold;
+        padding: 4px 10px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 12px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 10px 0;
+        color: #ffffff;
+      }
+
+      .info-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        color: #cbd5e1;
+        font-size: 0.95rem;
+      }
+
+      .info-label {
+        font-weight: bold;
+        color: #a855f7;
+        width: 90px;
+      }
+
+      .lineup {
+        background-color: #1f2937;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+      }
+
+      .lineup p {
+        margin: 0 0 5px 0;
+        font-size: 0.85rem;
+        color: #9ca3af;
+        text-transform: uppercase;
+      }
+
+      .lineup ul {
+        margin: 0;
+        padding-left: 18px;
+        color: #f3f4f6;
+        font-weight: 600;
+      }
+
+      .btn-ticket {
+        display: block;
+        text-align: center;
+        background: linear-gradient(90deg, #ec4899, #8b5cf6);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 14px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: opacity 0.2s ease;
+      }
+
+      .btn-ticket:hover {
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="event-card">
+      <span class="badge">Live Concert</span>
+      <h1>Neon Nights 2026</h1>
+
+      <div class="info-row">
+        <span class="info-label">Date:</span>
+        <span>Friday, October 24</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Venue:</span>
+        <span>Skyline Amphitheater</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Doors:</span>
+        <span>7:00 PM EST</span>
+      </div>
+
+      <div class="lineup">
+        <p>Featuring Performers</p>
+        <ul>
+          <li>The Midnight Synthetics</li>
+          <li>Solar Flare</li>
+          <li>DJ Echo Waves</li>
+        </ul>
+      </div>
+
+      <a href="#" class="btn-ticket">Get Tickets ($35)</a>
+    </div>
+  </body>
+</html>
