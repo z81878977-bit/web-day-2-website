@@ -1,0 +1,6 @@
+1. The background-color property sets the page background to #0f172a.
+2. The .title class controls the job title. The color property changes its text color to #38bdf8.
+3. The button turns blue (#0284c7) when I hover over it.
+4. The border property creates the border. #ec4899 is pink.
+5. The font-size property controls the heading size. It is set to 1.8rem.
+6. The border-radius property rounds the corners of the card by 20px.
